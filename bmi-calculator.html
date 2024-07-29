@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BMI 계산기 - 종합 건강 관리 센터</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <!-- 내비게이션 메뉴 -->
+    </header>
+
+    <main>
+      <section id="bmi-calculator">
+        <h2>BMI 계산기</h2>
+        <form id="bmi-form">
+          <label for="weight">체중 (kg):</label>
+          <input type="number" id="weight" required />
+          <label for="height">신장 (cm):</label>
+          <input type="number" id="height" required />
+          <button type="submit">BMI 계산</button>
+        </form>
+        <p id="bmi-result"></p>
+      </section>
+    </main>
+
+    <footer>
+      <!-- 푸터 내용 -->
+    </footer>
+
+    <script src="bmi-calculator.js"></script>
+  </body>
+</html>
